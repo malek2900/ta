@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #00ffd5, #3f30b1);
+    animation: animate 5s linear infinite;
+}
+
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(52, 59, 191 , 0.8);
+    border-radius: 6px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.box form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    position: relative;
+    width: 310px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+
+
+}
+input::placeholder {
+    color: #fff;
+}
+h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.submit {
+    position: relative;
+    width: 310px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.btn {
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.error{
+    color: red;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+
+}
